@@ -5,8 +5,8 @@ Introduction:
 
 STEPS
 1. Data Modeling , ER diagram 
-  1.1 create mysql table 
-  1.2 load csv file in created table using 
+  - create mysql table 
+  - load csv file in created table using 
 2.Data Engineering 
   2.1 create new directory in hdfs 
   2.2 import data from mysql to hdfs using sqoop 
