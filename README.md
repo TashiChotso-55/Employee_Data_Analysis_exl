@@ -10,12 +10,18 @@ There are three major steps for completing employee data analysis pipeline, each
 1. Data Modeling , ER diagram 
   - create mysql table 
   - load csv file in created table 
+    - prepare script file createtb_sql.sql
+    - source createtb_sql.sql
 2.Data Engineering 
   - create new directory in hdfs 
   - import data from mysql to hdfs using sqoop 
+     - prepare script file shell_script.sh
+     -sh shell_script.sh
+ 
   - create table in hive 
   - load data into created table 
-  
+     -prepare script hivefile 
+    
 3. Analysis the data in  impala 
 
 
