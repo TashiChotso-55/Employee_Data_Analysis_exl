@@ -17,15 +17,11 @@ Introduction:
 
 
 ** 1.DATA MODELING ,ER DIAGRAM **
-
   
  ![QuickDBD-export](https://user-images.githubusercontent.com/42148352/169115852-4ca08c6a-39c6-4463-8647-bba349c21958.png)
  
- ** 1.1 CREATE MYSQL TABLE **
- ** 1.2 LOAD CSV FILE IN CREATED MYSQL TABLE **
- 
- 
- DROP TABLE IF EXISTS department;
+ '''
+  DROP TABLE IF EXISTS department;
 CREATE TABLE department(
 	dept_no varchar(10)  NOT NULL ,
 	dept_name varchar(30) NOT NULL,
@@ -95,5 +91,4 @@ INTO TABLE salaries
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 IGNORE 1 ROWS;
 
-
-
+'''
