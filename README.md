@@ -55,7 +55,7 @@ There are three major steps for completing employee data analysis pipeline, each
 - precision
 - recall
 - f1 score
-
+- 
 
 ![Screenshot 2022-05-20 at 09 40 03](https://user-images.githubusercontent.com/42148352/169448814-f7181c78-b766-45b5-8504-15593e8e68de.png)
 
